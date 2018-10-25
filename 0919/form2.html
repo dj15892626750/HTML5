@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	*{margin:0;padding:0;}
+	body{background-color:#f1f1ef;}
+	#header{
+		height:60px;
+		/*background-color:#f03b6e;*/
+		background-image:url(logo.png)
+		}
+	.content{
+		background-color:#ffffff;
+		width:900px;
+		/*height:800px;*/
+		margin:0 auto;
+		overflow:hidden;
+		}
+	form{
+		border:#cccccc solid 1px;
+		width:750px;
+		/*height:800px;*/
+		margin:0 auto;
+		font-size:14px;
+		margin-bottom:50px;
+		}
+	hr{width:80%;margin-left:50px; margin-top:20px;margin-bottom:20px;}
+	h4{color:#e65480;}
+	h5{color:#666666;}
+	button{margin-top:50px;border:none;border-radius:6px;}
+	.first{
+		background-color:#ee406a;
+		color:#ffffff;
+		width:158px;
+		height:31px;
+		margin-left:150px;
+		}
+	.second
+	{
+		background-color:#ffffff;
+		width:158px;
+		height:31px;
+		border:1px #cccccc solid;
+		margin-left:10px;
+	}
+	.check{
+		margin-left:100px;
+		margin-bottom:10px;
+	}
+	table
+	{
+		margin-left:50px;
+	}
+	table tr{
+		height:40px;
+	}
+	.left{
+		width:100px;
+		text-align:right;	
+	}
+	.right button{
+		margin:0;
+		width:77px;
+		height:29px;
+	}
+	.right a{
+		float:right;
+		font-size:12px;
+		text-decoration:none;
+	}
+	textarea{margin:15px auto;}
+	.agree span{color:#0063dc;}
+	#submit{
+		width:308px;
+		height:44px;
+		margin-top:20px;
+		margin-bottom:35px;
+		color:#ffffff;
+		background-color:#179ec5;
+		font-size:16px;
+		border:none;
+		border-radius:6px;	
+	}
+	.footer{
+		height:300px;	
+	}
+	.footer ul{
+		list-style:none;
+		height:30px;
+		text-align:center;
+		width:700px;
+		margin:10px auto;
+	}
+	.footer ul li{
+		float:left;
+		width:70px;
+		height:30px;	
+	}
+	.footer span{margin:10px auto;}
+</style>
+</head>
+
+<body>
+<div id="header"></div>
+
+<div class="content">
+<button class="first">第一次来到世纪佳缘</button>
+<button class="second">已有世纪佳缘账号</button>
+	<form>
+	<!--<input type="button" value=""/>
+    <input type="button" value="已有世纪佳缘账号"/>-->
+    <div style="margin-top:30px;margin-left:50px;">
+        <h4>读懂之路透，欢迎来到世纪佳缘</h4><br/>
+        <h5>请花一分钟时间，完善个人资料</h5>
+    </div>
+    <hr/>
+    <div class="check">
+   	 	<input type="checkbox" checked />
+        <label><span>诚意留言</span>：我承诺抱着严肃的态度，真诚寻找另一半</label>
+    </div>
+    <table >
+    <tr>
+        <td class="left">我是：</td>
+        <td>
+            <input type="radio" name="sex"/>男
+            <input type="radio" name="sex"/>女
+        </td>
+    </tr>
+    <tr>
+        <td class="left">生日：</td>
+        <td>
+            <select>
+                <option>-请选择-</option>
+                <option value="">1995</option>
+                <option>1996</option>
+            </select>年
+            <select>
+                <option>-请选择-</option>
+                <option>19</option>
+                <option>25</option>
+            </select>月
+            <select>
+                <option>-请选择-</option>
+                <option>1</option>
+                <option>12</option>
+            </select>日
+        </td>
+    </tr>
+    <tr>
+        <td class="left">身高：</td>
+        <td>
+            <select>
+                <option>170</option>
+                <option>171</option>
+                <option>172</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="left">所属地区：</td>
+        <td>
+            <select>
+                <option>-请选择-</option>
+                <option>四川</option>
+                <option>上海</option>
+            </select>
+            <select>
+                <option>-请选择-</option>
+                <option>成都</option>
+                <option>绵阳</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="left">婚姻状况：</td>
+        <td>
+            <input type="radio" name="married" checked/>未婚
+            <input type="radio" name="married"/>离婚
+            <input type="radio" name="married"/>丧偶
+        </td>
+    </tr>
+    <tr>
+        <td class="left">学历：</td>
+        <td>
+            <select>
+                <option>本科</option>
+                <option>大专</option>
+                <option>硕士</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="left">月薪：</td>
+        <td>
+            <select>
+                <option>5000-10000</option>
+                <option>10k-15k</option>
+                <option>15k-20k</option>
+            </select>
+        </td>
+    </tr>
+    </table>
+    <hr/>
+    <table>
+    <tr>
+        <td class="left">注册方式：</td>
+        <td><input type="radio" name="phone" checked/>手机注册</td>
+    </tr>
+    <tr>
+        <td class="left">我的手机号：</td>
+        <td><input type="text" value=""/></td>
+    </tr>
+    <tr>
+        <td class="left">手机验证码：</td>
+        <td><input type="text" value=""/></td>
+    </tr>
+    <tr>
+        <td class="left">密码：</td>
+        <td><input type="password" value=""/></td>
+    </tr>
+    <tr>
+        <td class="left">确认密码：</td>
+        <td><input type="password" value=""/></td>
+    </tr>
+    <tr>
+        <td class="left">昵称：</td>
+        <td><input type="text" value=""/></td>
+	<tr>
+    </table>
+    <hr/>
+    <table>
+    	<tr>
+        <td class="left" valign="top">内心独白：</td>
+        <td style="width:400px;">
+        	<div class="right">
+                <button style="background-color:#ffffff;border:1px solid #f4f4f4;">自己写</button>
+                <button style="background-color:#f4f4f4;">我帮你写</button>
+                <a href="#">看看别人怎么写</a>
+            </div>
+            <textarea rows="10" cols="60" placeholder="请输入你的内心独白"></textarea>
+            <div class="agree">
+            	<input type="checkbox" checked/>同意<span>世纪佳缘注册条例</span>和<span>会员加入标准</span>
+            </div>
+            <input type="submit" id="submit" value="免费注册&nbsp;开启浪漫之旅"/>
+        </td>
+        </tr>
+    </table>
+</form>
+</div>
+<div class="footer">
+	<ul>
+    	<li>联系客服</li>
+        <li>关于我们</li>
+        <li>联系我们</li>
+        <li>注册条款</li>
+        <li>友情链接</li>
+        <li>无线业务</li>
+        <li>招聘信息</li>
+        <li>隐私保护</li>
+        <li>安全中心</li>
+        <li>帮助中心</li>
+    </ul>
+    <span>版权所有：</span>
+</div>
+
+</body>
+</html>

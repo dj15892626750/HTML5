@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background:#cccccc;
+}
+
+.box{
+	width:900px;
+	height:600px;
+	margin:0 auto;
+	margin-top:15px;
+	border:5px solid #fff;
+}
+
+/*头部*/
+.box .head{
+	height:80px;
+	background: #f47d31;
+	font-size: 54px;
+	color: #fff;
+	line-height:80px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*内容*/
+.box .content{
+	height:440px;
+	background: #888888;
+}
+
+/*内容左边导航nav部分*/
+.box .content nav{
+	width:205px;
+	float: left;
+	padding:0 10px;
+}
+.box .content nav h4{
+	font-size: 14px;
+	color:#fff;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 7px;
+}
+.box .content nav ul li{
+	list-style: none;
+	font-size: 12px;
+	height:50px;
+	line-height:50px;
+	border-bottom:3px solid #fff;	
+}
+.box .content nav ul li a{
+	color: #e37d31;
+	padding-left: 11px;
+	text-decoration: none;
+}
+
+/*内容中间主体部分section*/
+.box .content section{
+	width:450px;
+	height:397px;
+	float: left;
+	margin-top:10px;
+}
+.box .content section article{
+	background: #eeeeee;
+	padding:10px;
+}
+.box .content section article header{
+	height:30px;
+	background:#f47d31;
+	font-size: 18px;
+	color: #fff;
+	line-height:30px;
+	text-align: center;
+	font-weight: bold;
+}
+.box .content section article footer{
+	height:30px;
+	background:#f47d31;
+	font-size: 18px;
+	color: #fff;
+	line-height:30px;
+	text-align: center;
+	font-weight: bold;
+}
+.box .content section article:nth-child(1){
+	height:200px;
+	margin-bottom:10px;	
+}
+.box .content section article:nth-child(1) p{
+	font-size: 14px;
+	line-height:19px;
+	margin-top:15px;	
+}
+.box .content section article:nth-child(1) .p2{
+	margin-bottom: 15px;
+}
+.box .content section article:nth-child(2){
+	height:147px;	
+}
+.box .content section article:nth-child(2) p{
+	font-size: 14px;
+	line-height:19px;
+	margin:15px 0;	
+}
+
+/*内容右边aside部分*/
+.box .content aside{
+	width:187px;
+	height:440px;
+	float: right;
+	padding:0 19px;
+}
+.box .content aside h4{
+	font-size: 14px;
+	color:#fff;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 7px;
+}
+.box .content aside p{
+	font-size: 14px;
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 21px;
+}
+.box .content aside p mark{
+	width:64px;
+	height:19px;
+	font-style: normal;
+	font-size: 13px;
+}
+
+/*底部*/
+.box .foot{
+	height:80px;
+	background: #f47d31;
+	font-size: 54px;
+	color: #fff;
+	line-height:80px;
+	text-align: center;
+	font-weight: bold;
+}

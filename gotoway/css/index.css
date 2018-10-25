@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+/*清除内外边距*/
+*{margin:0;padding:0;}
+body{
+	width:1100px;
+	margin:0 auto;
+	}
+
+/*头部*/
+.header{
+	height:65px;
+	}
+.header .logo{
+	margin-top:14px;
+	margin-left:48px;
+	float:left;
+	}
+.header .logo img{
+	width:169px;
+	height:42px;
+	}
+.header ul{
+	float:right;
+	text-align:center;
+	margin-top:14px;
+	margin-right:28px;
+	}	
+.header ul li{
+	width:97px;
+	height:50px;
+	font-size:16px;
+	line-height:50px;
+	color:#494949;
+	list-style:none;
+	float:left;
+	}
+.header ul li a{
+	color:#616161;
+	text-decoration:none;
+	}
+	
+/*banner大图*/
+.banner{
+	height:422px;
+	}
+
+.content{
+	height:720px;
+	padding:0 50px;
+	background-color:#f2f2f2;
+	}
+
+/**内容顶部部分**/
+.content .top{
+	width:1000px;
+	height:287px;
+	margin-bottom:67px;
+	}
+	
+/*顶部左边*/
+.content .top .services{
+	width:472px;
+	height:287px;
+	float:left;
+	}
+.content .top .services .title{
+	height:50px;
+	margin-bottom:5px;
+	}
+.content .top .services dl{
+	height:50px;
+	}
+.content .top .services .dl1{
+	margin-bottom:78px;
+	}
+.content .top .services dl dt{
+	width:121px;
+	height:50px;
+	font-size:14px;
+	color:#02b7f0;
+	float:left;
+	line-height:24px;
+	
+	}	
+.content .top .services dl dd{
+	font-size:12px;
+	color:#626262;
+	line-height:24px;
+	}
+
+/*顶部右边*/
+.content .top .cases{
+	width:488px;
+	height:287px;
+	float:right;
+	}
+.content .top .cases .title{
+	height:50px;
+	}
+.content .top .cases .imgs{
+	width:490px;
+	height:217px;
+	margin-top:21px;
+	}
+.content .top .cases .imgs img{float:left;}
+.content .top .cases .imgs .img_center{margin:0 6px;}
+
+/*内容中间部分*/
+.content .middle{
+	width:1000px;
+	height:225px;
+	}
+/*中间左边*/
+.content .middle .left{
+	width:303px;
+	height:225px;
+	float:left;
+	background:url(../images/br.png) no-repeat right bottom;
+	}
+.content .middle .left h3{
+	font-weight:normal;
+	font-size:18px;
+	color:#212121;
+	height:32px;
+	}
+.content .middle .left div{
+	height:34px;
+	}
+.content .middle .left div img{
+	float:right;
+	margin-right:8px;
+	margin-top:2px;
+	}
+.content .middle .left p{
+	font-size:12px;
+	color:#7b7b7b;
+	line-height:21px;
+	}
+.content .middle .left .p1{
+	margin-bottom:20px;
+	}
+
+/*中间中部*/
+
+.content .middle .center{
+	width:272px;
+	height:225px;
+	margin-left:25px;
+	float:left;
+	background:url(../images/br.png) no-repeat right bottom;
+	}
+.content .middle .center h3{
+	font-weight:normal;
+	font-size:18px;
+	color:#212121;
+	height:32px;
+	padding-left:15px;
+	}	
+.content .middle .center div{
+	height:34px;
+	}	
+.content .middle .center div img{
+	float:right;
+	margin-right:8px;
+	margin-top:2px;
+	}
+.content .middle .center dl{
+	width:257px;
+	height:163px;
+	}
+.content .middle .center dl dt{
+	height:69px;
+	margin-bottom:16px;
+	}	
+.content .middle .center dl dd{
+	width:257px;
+	font-size:12px;
+	line-height:24px;
+	color:#747474;
+	}
+
+/*中间右边*/
+
+.content .middle .right{
+	width:377px;
+	height:225px;
+	float:right;
+	}
+.content .middle .right h3{
+	font-weight:normal;
+	font-size:18px;
+	color:#212121;
+	height:32px;
+	}
+.content .middle .right div{
+	height:34px;
+	}
+.content .middle .right div img{
+	float:right;
+	margin-top:2px;
+	}
+.content .middle .right ul li{
+	list-style:none;
+	font-size:12px;
+	line-height:26px;
+	}
+.content .middle .right ul li a{
+	text-decoration:none;
+	color:#7b7b7b;
+	}
+.content .middle .right ul li span{
+	color:#7b7b7b;
+	float:right;
+	margin-right:10px;
+	}
+	
+
+/*内容底部*/
+.content .bottom{
+	width:1000px;
+	height:50px;
+	margin-top:91px;
+	}
+.content .bottom .left{
+	width:50px;
+	height:49px;
+	background-color:#00b5ee;
+	margin-top:1px;
+	float:left;
+	}
+.content .bottom .right{
+	height:47px;
+	width:645px;
+	border:1px solid #cfcfcf;
+	float:right;
+	margin-bottom:1px;
+	}
+.content .bottom .right dl{
+	width:180px;
+	height:34px;
+	font-size:12px;
+	margin-top:6px;
+	float:left;
+	
+	}
+.content .bottom .right dl dt{
+	width:97px;
+	height:34px;
+	text-align:right;
+	border-right:1px solid #b7b7b7;
+	padding-right:10px;
+	float:left;
+	line-height:34px;
+	color:#7d7d7d;
+	background:url(../images/web.png) no-repeat 13px center;
+	}
+.content .bottom .right dl dd{
+	width:72px;
+	height:34px;
+	float:left;
+	text-align:right;
+	}
+.content .bottom .right dl dd a{
+	text-decoration:none;
+	color:#7d7d7d;
+	}
+
+.content .bottom .right .email{
+		width:193px;
+		height:34px;
+		margin-left:30px;
+		}
+.content .bottom .right .email dt{
+	width:97px;
+	height:34px;
+	border-right:1px solid #b7b7b7;
+	float:left;
+	line-height:34px;
+	text-align:right;
+	padding-right:7px;
+	background:url(../images/email.png) no-repeat 13px center;
+	}
+.content .bottom .right .email dd{
+	width:75px;
+	height:34px;
+	float:left;
+	text-align:left;
+	padding-left:10px;
+	}
+
+.content .bottom .right .contact{
+	width:193px;
+	height:34px;
+	float:right;
+	margin-right:20px;
+	}
+.content .bottom .right .contact dt{
+	width:97px;
+	height:34px;
+	border-right:1px solid #b7b7b7;
+	float:left;
+	line-height:34px;
+	text-align:right;
+	padding-right:8px;
+	background:url(../images/lxwm.png) no-repeat 13px center;
+	}
+.content .bottom .right .contact dd{
+	width:75px;
+	height:34px;
+	float:left;
+	text-align:left;
+	padding-left:12px;
+	}
+	
+/*底部*/
+.footer{
+	width:1000px;
+	height:230px;
+	padding:0 50px;
+	background-color:#383838;
+	}
+.footer .top{
+	width:1000px;
+	height:110px;
+	padding-top:50px;
+	}
+.footer .top .left{
+	width:500px;
+	height:120px;
+	float:left;
+	}
+.footer .top .left p{
+	font-size:12px;
+	line-height:26px;
+	height:26px;
+	color:#929292;
+	}
+.footer .top .left .menu a{
+	text-decoration:none;
+	color:#d4d4d4;
+	border-right:1px solid #979797;
+	padding:0 22px;
+	float:left;
+	}
+.footer .top .left .menu{
+	font-size:12px;
+	line-height:13px;
+	height:13px;
+	color:#929292;
+	margin-bottom:6px;
+	}
+
+
+.footer .top .right{
+	width:180px;
+	height:110px;
+	float:right;
+	color:#bfbfbf;
+	margin-right:15px;
+	}
+.footer .top .right p{
+	font-size:12px;
+	}
+.footer .top .right span{
+	font-size:20px;
+	}
+	
+
+.footer .bottom{
+	width:1000px;
+	height:50px;
+	text-align:center;
+	color:#929292;
+	font-size:12px;
+	padding-top:20px;
+	}
+.footer .bottom p{
+	
+	}
